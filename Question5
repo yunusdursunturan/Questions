@@ -1,0 +1,14 @@
+String str1 = "abc";
+str1 referanstır ve stack te tutulur. JVM heap te str1 adında bir nesne oluşturur. İçine "abc" değerini atar.
+
+
+String str2 = new String("abc");
+
+JVM heap'te yeni bir alan oluşturur ve abc yi içine atar.
+abc içerikli bir nesne daha önce heap te vardı ama burada "new string" ile tekrardan yeni bir alan oluşturuyor.
+
+
+String str3 = "abc";
+
+str3 referanstır ve stack te tutulur. JVM heap te yeni bir alan oluşturmaz ve abc nesnesi içine atmaz .
+str1 ile aynı yeri gösterir heap te.
