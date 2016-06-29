@@ -1,0 +1,34 @@
+
+for (int i = 0; i <= 2; i++) {
+
+System.out.println(i);
+}
+
+int i=0 --->i diye bir değişken tanımlanmış ve başlangıç değeri 0 olarak verilmiş.
+i <= 2  --->i için bir sınırlama şartı koyulmuş. yani i 2 den küçük veya eşit olana kadar takrarlanır bu for döngüsü.şart kontorü yapılıyor
+i++ ---> i değeri yazıldıktan sonra   artırılır.
+System.out.println(i); ile i'nin o an ki değeri yazılır.
+ekran çıktısı  aşağıdaki gibi;
+
+0
+1
+2
+
+
+
+
+for (int i = 0; i <= 2; ++i) {
+
+System.out.println(i);
+
+}int i=0 --->i diye bir değişken tanımlanmış ve başlangıç değeri 0 olarak verilmiş.
+i <= 2  --->i için bir sınırlama şartı koyulmuş. yani i 2 den küçük veya eşit olana kadar takrarlanır bu for döngüsü.şart kontorü yapılıyor
+++i --->i değeri  artırılır dıktan sonra ekrana yazar.
+System.out.println(i); ile i'nin o an ki değeri yazılır.
+ekran çıktısı  aşağıdaki gibi;
+
+0
+1
+2
+
+ iki for arasında fark yok .
